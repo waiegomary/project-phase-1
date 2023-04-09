@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferry Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>BC Ferries Schedule</h1>
+        <form id="ferry-form">
+            <label for="departure">Departure Terminal:</label>
+            <input type="text" id="departure" placeholder="e.g. TSA" required>
+            <label for="destination">Destination Terminal (Optional):</label>
+            <input type="text" id="destination" placeholder="e.g. SWB">
+            <button type="submit">Get Schedule</button>
+        </form>
+        <div id="ferry-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
